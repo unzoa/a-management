@@ -1,0 +1,39 @@
+{
+  "name": "webpack-pre",
+  "version": "1.0.0",
+  "description": "pre learn",
+  "main": "index.js",
+  "keywords": [
+    "webpack-pre"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --profile --colors --config webpack.production.config.js"
+  },
+  "author": "yuhongyu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "6.x",
+    "babel-loader": "6.x",
+    "babel-preset-env": "",
+    "babel-preset-react": "6.x",
+    "bundle-loader": "^0.5.4",
+    "css-loader": "0.x",
+    "file-loader": "0.x",
+    "style-loader": "0.x",
+    "url-loader": "~0.5.6",
+    "history": "^1.17.0",
+    "html-webpack-plugin": "2.x",
+    "jquery": "3.x",
+    "open-browser-webpack-plugin": "0.x",
+    "webpack": "2.x",
+    "webpack-dev-server": "1.x",
+    "jsx-loader": "~0.13.2",
+    "react": "15.x",
+    "react-dom": "15.x",
+    "react-router": "2.x"
+  },
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  }
+}
