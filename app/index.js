@@ -7,6 +7,7 @@ import _ from '@/lb/_y.js'
 import '@/lb/_y.css'
 
 
+
 let CreateContent = (url) => {
     var strHtml = '<iframe src="' + url + '" scrolling="no" frameborder="0" fit="true" style="display: inherit;height:100%;width:100%;min-height:99%;"></iframe>';
     return strHtml;
@@ -35,11 +36,11 @@ let bindEvent = () => {
 }
 
 let urlData = {
-			"贷款申请":"./src/mobile/mobile.html",
-		    "全部贷款":"./src/mobile/mobile2.html",
-		    "法院执行":'./src/mobile/mobile3.html',
-		    "待电审":'',
-		    "待面审":'',
+			"贷款申请":"app/mobile.html",
+		    "全部贷款":"app/mobile2.html",
+		    "法院执行":'app/mobile3.html',
+		    "待电审":'app/auth.html',
+		    "待面审":'app/bumen.html',
 		    "还款中":'',
 		    "未批款":'',
 		    "部门管理":'',

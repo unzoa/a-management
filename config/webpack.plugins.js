@@ -32,25 +32,41 @@ configEntry.push(new HtmlwebpackPlugin({
 }));
 configEntry.push(new HtmlwebpackPlugin({
   title: 'Mobile',
-  template: path.resolve(TEM_PATH, 'mobile.html'),
-  filename: 'src/mobile/mobile.html',
+  template: path.resolve(TEM_PATH, 'mobile/mobile.html'),
+  filename: 'app/mobile.html',
   chunks: ['mobile', 'vendor'],
   inject: 'body',
   hash:true
 }));
 configEntry.push(new HtmlwebpackPlugin({
   title: 'Mobile',
-  template: path.resolve(TEM_PATH, 'mobile2.html'),
-  filename: 'src/mobile/mobile2.html',
+  template: path.resolve(TEM_PATH, 'mobile/mobile2.html'),
+  filename: 'app/mobile2.html',
   chunks: ['mobile2', 'vendor'],
   inject: 'body',
   hash:true
 }));
 configEntry.push(new HtmlwebpackPlugin({
   title: 'Mobile',
-  template: path.resolve(TEM_PATH, 'mobile3.html'),
-  filename: 'src/mobile/mobile3.html',
+  template: path.resolve(TEM_PATH, 'mobile/mobile3.html'),
+  filename: 'app/mobile3.html',
   chunks: ['mobile3', 'vendor'],
+  inject: 'body',
+  hash:true
+}));
+configEntry.push(new HtmlwebpackPlugin({
+  title: 'auth',
+  template: path.resolve(TEM_PATH, 'test2/auth.html'),
+  filename: 'app/auth.html',
+  chunks: ['auth', 'vendor'],
+  inject: 'body',
+  hash:true
+}));
+configEntry.push(new HtmlwebpackPlugin({
+  title: 'bumen',
+  template: path.resolve(TEM_PATH, 'test2/bumen.html'),
+  filename: 'app/bumen.html',
+  chunks: ['bumen', 'vendor'],
   inject: 'body',
   hash:true
 }));
